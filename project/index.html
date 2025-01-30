@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Talk It Out - Parent-Child Communication</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6; background-color: rgb(51, 68, 141); color: rgb(255, 227, 208);
+        }
+
+
+        header { color: cornsilk;
+            background: #4CAF50;
+            color: white;
+            padding: 10px;
+            text-align: center; background-color: chocolate;
+        }
+
+
+        header .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+
+        .hero {
+            background: url('hero-image.jpg') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+
+        .cta {
+            background: #ff9100;
+            padding: 10px 20px;
+            text-decoration: none;
+            color: black;
+            border-radius: 5px;
+        }
+
+
+        section {
+            padding: 20px;
+            margin: 10px 0;
+        }
+
+
+        #resources ul {
+            list-style-type: square;
+        }
+
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Courtroom Conundrum</div>
+        <nav>
+            <ul>
+                <li><a href="#features">About</a></li>
+                <li><a href="#resources">Resources</a></li>
+                <li><a href="#join">Join Us</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+   
+       <section id="features">
+            <h2> About </h2>
+            <div class="feature">
+               
+                <p>Courtroom Conundrum designed to improve communication between parents
+                    and children. The site encourages open discussions about feelings and discipline,
+                     helping to prevent misunderstandings that may lead to violent discipline.
+                      Promotes healthy dialogue.
+                      Provides resources for effective communication. Features activities to enhance bonding.
+                      Engaging parents actively. Keeping content relevant for all ages.
+                     Addressing different communication skills. </p>
+            </div>
+            <div class="feature">
+                <h3>Help Resource Library</h3>
+                <p>Articles and videos on effective get help in case ofchild abuse.</p>
+                <a href="https://jfs.ohio.gov/child-and-adult-protection-foster-and-adoption/report-child-or-adult-abuse-neglect">LINK TO REPORT</a>
+            </div>
+        </section>
+
+
+        <section id="resources">
+            <h2>Additional Resources</h2>
+            <p>Explore our collection of articles, videos, and activities designed to enhance family communication.</p>
+            <ul>
+                <li><a href="https://www.bringingeducationhome.com/episode/ep94-jamie-buzzle-parenting-101-how-to-communicate-effectively-with-your-kids">101 Communication Tips</a></li>
+                <li><a href="https://connectedfamilies.org/family-bonding-activities/">Activities for Bonding</a></li>
+                <li><a href="https://kidshealth.org/en/parents/spanking.html#:~:text=Time%2Douts%20are%20helpful%20for,small%20rewards)%20for%20good%20behavior.">Discipline with out violence</a></li>
+            </ul>
+        </section>
+
+
+        <section id="join">
+            <h2>Join the Conversation!</h2>
+            <p>Connect with us and others in the community to improve family communication.</p>
+            <a href="signup.html" class="cta">Sign Up Now</a>
+        </section>
+
+
+
+
+
+
+       
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit" class="cta">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+
+    <footer>
+        <p>&copy; 2023 Talk It Out. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+
+
+
+
+
